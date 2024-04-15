@@ -1,0 +1,31 @@
+@import "reset";
+@import "variables";
+
+body {
+  font-family: "medium", sans-serif;
+  font-size: 20px;
+  background: transparent linear-gradient(180deg, #6600ff 0%, #00cc99 100%) 0%
+    0% no-repeat padding-box;
+  color: #080708;
+  line-height: 120%;
+  margin: 0;
+}
+
+button:active {
+  box-shadow: 0 2px 17px rgba(0, 0, 0, 1) !important; 
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+  max-width: 310px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
